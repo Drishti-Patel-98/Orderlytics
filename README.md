@@ -48,7 +48,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 
 ## Metrics and Analysis Approach:
 
-1.  Revenue and Growth:
+### 1.  Revenue and Growth:
 
 |     |     |     |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | Average Order Value (AOV) | SUM(Payment_Val) / Count (distinct Order_ID) | Identifying order size over time |
 | Month-over-Month Revenue Growth | (Current month revenue – Previous month revenue) / Previous month revenue using LAG () | Measure growth rate |
 
-2.  Customer Behavior:
+### 2.  Customer Behavior:
 
 |     |     |     |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | Repeat Purchase Rate | COUNT (distinct repeat customers) / COUNT (distinct all customers) | Evaluate loyalty and recurring revenue potential |
 | Customer Lifetime Value (CLV) | SUM (Payment_Val) per customer | Determine the long-term revenue of each customer |
 
-3.  Product Performance:
+### 3.  Product Performance:
 
 |     |     |     |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | Revenue per Product Category | SUM (Price + Freight_Val) by product category | Identify top-selling product categories |
 | Revenue Concentration (Pareto Analysis) | Rank product categories by revenue, top 10% contribution using ROW_NUMBER and count (Prod_ID) over () | Identify the Products Categories driving the majority of revenue |
 
-4.  Operational metrics:
+### 4.  Operational metrics:
 
 |     |     |     |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | On-time Delivery Rate | Count (Orders delivered on time) / Count (Total Orders) | Order fulfilment efficiency |
 | Late Delivery Rate | Count (Orders delivered late) / Count (Total Orders) | Identifying operational bottleneck |
 
-5.  Payment and Risk:
+### 5.  Payment and Risk:
 
 |     |     |     |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | Payment Method Breakdown | SUM of Revenue per payment type | Understand revenue distribution across payment methods |
 | Installment Analysis | Tag Order as single payment vs installments, and calculate the average order value | Identify whether higher order value rely on installment payments |
 
-6.  Customer Satisfaction:
+### 6.  Customer Satisfaction:
 
 |     |     |     |
 | --- | --- | --- |
