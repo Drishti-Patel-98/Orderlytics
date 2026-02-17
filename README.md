@@ -25,7 +25,7 @@ This analysis is based on a public Brazilian e-commerce dataset provided by Olis
 Snowflake data model is designed to support analytical queries efficiently, where Orders is the central fact table connected to customers, products, sellers, payment, and reviews.
 
 ### Entity Relationship Diagram:
-![Data model](Database Creation/ERD.png)
+![Data model](Database%20Creation/ERD.png)
 
 ### Table Overview:
 
