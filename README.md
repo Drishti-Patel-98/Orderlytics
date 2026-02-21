@@ -104,7 +104,14 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 | Revenue Vs Review Score | CORR (Review_Score, Revenue) | Determine if higher revenue orders lead to better reviews |
 | Late Delivery Impact | Compare the average review score for ‘On-Time’ Vs ‘Late’ Orders | Assess operational impact on customer satisfaction |
 
-## Key Findings:
+## Key Insights:
+
+- Revenue increased from late 2016 to 2017 because the number of orders grew, not because customers were spending more per order. In 2018, revenue leveled off at around 1M per month, suggesting that growth may be slowing down. Since revenue has been driven mostly by higher order volume rather than higher average order value (AOV), the company should focus on improving customer retention and increasing AOV, while also exploring new customer acquisition channels to support future growth.
+- Product-level revenue analysis shows that top 10% of products contributes 59.15% of total revenue. Product categories like health_beauty, watches_gifts, bed_bath_table, sports_leisure, computers_accessories are driving high revenue. The result highlights prioritizing high perfoming product categories while optimizing low performing categories to reduce revenue risk.
+- Customer behaviour analysis shows that approximately 95% of revenue is generated from new customers, while repeat customers contribution is very minimal (~3%). This indicates revenue growth is customer acquisition-driven, creating depency risk on continuous customer acqusition. To improve long-term profitability, the company should focus on customer retention strategies.
+- Payment behaviour analysis shows that the most revenue processed by credit cards (~78%), while customers opt for installments for high value products (AOV $197.23). For low contributing methods like debit card or vouchers, the comapny may choose to optimize these channels or running targted promotions to improve adoption.
+- Analysis of revenue vs review ratings shows that most orders (4–5 stars) have mid-range average order values ($154–$156), while low-rated orders (1–2 stars) have higher AOV ($170–$193). However, the overall correlation between revenue and reviews is very weak (-0.042), indicating that spending more does not necessarily lead to higher or lower customer satisfaction. This suggests that premium products may require extra attention on quality and post-purchase support, while mid-range products drive both volume and positive reviews.
+-  The average delivery time of delivered orders is 12.5 days. Approximately 91.89% orders delivered on or before time, while 8.11% are late. This shows an efficient operations. Also, analysis of delivery performance shows that on-time orders receive an average review of 4.29, while late orders average only 2.57. This highlights that timely delivery has a strong impact on customer satisfaction and improving late deliveries can meaningfully boost overall review scores.
 
 ## Tools Used:
 
