@@ -121,4 +121,4 @@ Snowflake data model is designed to support analytical queries efficiently, wher
 
 ## Note:
 
-For this SQL-focused phase, I intentionally worked with the raw dataset to reflect real-world analytical conditions. Instead of globally cleaning the data, I handled quality issues within each query through filters, joining strategies, and documented assumptions. In the future phase, I plan to implement formal data modeling and data quality checks using dbt.
+For this SQL-focused phase, I intentionally worked with the raw dataset to reflect real-world analytical conditions. Instead of globally cleaning the data, I handled quality issues within each query through filters, joining strategies, and documented assumptions.
